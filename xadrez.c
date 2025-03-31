@@ -27,6 +27,18 @@ int main(){
         bispo++;
 
     } while (bispo < 5);
+
+    //Programa do Cavalo
+    int move = 0;
+
+    printf("\nPrograma do Cavalo\n");
+
+    do{
+        for(int i = 0; i < 2; i++){
+            printf("Cavalo se moveu para Baixo\n");
+        }
+        printf("Cavalo se moveu para Esquerda\n");
+    } while(move--);
     
 
     return 0;
